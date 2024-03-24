@@ -28,5 +28,5 @@ def market_calculation():
     result=round(result,2)
     st.write(f"${result} USD")
 
-price=st.text_input("What is the Price?"
+price=st.text_input("What is the Price?")
 market_calculation()
