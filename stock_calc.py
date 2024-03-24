@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image, ImageTk
+import time
 
 st.title("Stock Market Calculator")
 
@@ -19,7 +20,14 @@ def price_calculation():
 
 market_cap=st.number_input("What is the Market Cap?")
 supply=st.number_input("What is the Circulating Supply?")
-price_calculation()
+
+x=st.button("Ready to Calculate?")
+
+if x:
+    price_calculation()
+else:
+    time.sleep(10)
+    st.rerun()
 
 # this is the main code for market cap calc
 def market_calculation():
@@ -29,4 +37,12 @@ def market_calculation():
     st.write(f"${result} USD")
 
 price=st.number_input("What is the Price?")
-market_calculation()
+
+y=st.button("Ready to Calculate?")
+
+if y:
+    market_calculation()
+else:
+    time.sleep(10)
+    st.rerun()
+
