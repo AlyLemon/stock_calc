@@ -1,5 +1,1 @@
-this file will contain documentation to explain to code to new eyeballs
-
-fix something
-
-testing pushing/pulling/commits
+This is a stck calculator to calculate the Market Cap and Price
