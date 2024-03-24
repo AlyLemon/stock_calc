@@ -37,7 +37,7 @@ def market_calculation():
 
 price=st.number_input("What is the Price?")
 
-y=st.button("Ready to Calculate?")
+y=st.button("Ready to Calculate again?")
 
 if y:
     market_calculation()
