@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image, ImageTk
 import time
 
 st.title("Stock Market Calculator")
